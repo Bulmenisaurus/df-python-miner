@@ -1,6 +1,6 @@
 from http.server import BaseHTTPRequestHandler
 from decimal import Decimal
-import mimc
+import mimc_slow as mimc
 import json
 
 
